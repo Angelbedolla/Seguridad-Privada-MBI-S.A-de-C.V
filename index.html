@@ -1,0 +1,529 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Seguridad Privada MBI S.A DE C.V| Presentación Corporativa</title>
+  <meta name="description" content="Servicios profesionales de seguridad privada: guardias intramuros, monitoreo 24/7, rondines, control de accesos y más." />
+  <meta name="theme-color" content="#0f172a" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ["Outfit", "ui-sans-serif", "system-ui"] },
+          colors: {
+            brand: {
+              50: '#eff6ff',
+              100: '#dbeafe',
+              200: '#bfdbfe',
+              300: '#93c5fd',
+              400: '#60a5fa',
+              500: '#3b82f6',
+              600: '#2563eb',
+              700: '#1d4ed8',
+              800: '#1e40af',
+              900: '#1e3a8a'
+            }
+          },
+          boxShadow: {
+            soft: '0 10px 30px rgba(2, 6, 23, 0.18)'
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    .glass { background: rgba(253, 4, 28, 0.55); backdrop-filter: blur(8px); }
+    .gradient-hero { background: radial-gradient(1200px 600px at 80% -20%, rgba(236, 244, 243, 0.972), transparent), radial-gradient(900px 500px at -10% 20%, rgba(30,58,138,.35), transparent), linear-gradient(180deg, #0b1220 0%, #0b1220 60%, #0f172a 100%); }
+  </style>
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans">
+  <!-- NAVBAR -->
+  <header class="fixed top-0 inset-x-0 z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <nav class="mt-4 flex items-center justify-between rounded-2xl glass px-4 py-3 shadow-soft">
+        <a href="#inicio" class="flex items-center gap-3 group">
+        
+        <div class="flex items-center space-x-3">
+  <!-- Logo -->
+  <img src="Logo navideño 2026.png" alt="Logo MBI" class="h-10 w-10 object-contain">
+        
+        </div>
+  <div>
+    <p class="text-xs uppercase tracking-widest text-brand-200">MBI</p>
+    <p class="font-semibold -mt-1">Seguridad Privada</p>
+  </div>
+        </a>
+        <div class="hidden md:flex items-center gap-6 text-sm">
+          <a href="#servicios" class="hover:text-brand-300">Servicios</a>
+          <a href="#ventajas" class="hover:text-brand-300">Ventajas</a>
+          <a href="#sectores" class="hover:text-brand-300">Sectores</a>
+          <a href="#clientes" class="hover:text-brand-300">Clientes</a>
+          <a href="#contacto" class="hover:text-brand-300">Contacto</a>
+        </div>
+        <div class="flex items-center gap-2">
+  <a href="#contacto" 
+     class="inline-flex items-center gap-2 rounded-xl bg-red-600 px-4 py-2 
+            text-sm font-semibold text-white hover:bg-red-700 transition shadow-md">
+    <span>Solicitar cotización</span>
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M13 5l7 7-7 7v-4H4v-6h9V5z"/>
+    </svg>
+  </a>
+</div>
+  </header>
+
+  <!-- HERO -->
+  <section id="inicio" class="relative pt-32 gradient-hero overflow-hidden">
+    <div class="absolute inset-0 opacity-15 pointer-events-none">
+      <svg class="w-[140%] -translate-x-1/4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+        <defs>
+          <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#60a5fa"/>
+            <stop offset="100%" stop-color="#1e3a8a"/>
+          </linearGradient>
+        </defs>
+        <circle cx="150" cy="100" r="120" stroke="url(#g1)" stroke-width="2"/>
+        <circle cx="700" cy="300" r="160" stroke="url(#g1)" stroke-width="2"/>
+        <circle cx="400" cy="500" r="130" stroke="url(#g1)" stroke-width="2"/>
+      </svg>
+    </div>
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 py-24">
+      <div class="grid lg:grid-cols-2 items-center gap-12">
+        <div>
+          <span class="inline-flex items-center gap-2 rounded-full bg-brand-600/20 ring-1 ring-brand-400/30 px-3 py-1 text-xs font-semibold text-brand-200">Monitoreo 24/7</span>
+          <h1 class="mt-5 text-4xl sm:text-5xl font-extrabold leading-tight">Protegemos lo que más importa con <span class="text-brand-400">disciplina</span> y <span class="text-brand-400">tecnología</span>.</h1>
+          <p class="mt-5 text-slate-300/90 text-lg max-w-xl">Empresa de seguridad privada con cobertura nacional. Guardias intramuros, control de accesos, CCTV, y protocolos de reacción inmediata.</p>
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a href="#servicios" class="rounded-xl bg-white/10 px-5 py-3 text-sm font-semibold hover:bg-white/15 ring-1 ring-white/10">Ver servicios</a>
+            <a href="#contacto" class="rounded-xl bg-brand-600 px-5 py-3 text-sm font-semibold hover:bg-brand-700 shadow-soft">Cotiza hoy</a>
+          </div>
+          <div class="mt-10 flex items-center gap-6 text-xs text-slate-300/70">
+            <div class="flex items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 100 20 10 10 0 000-20Zm1 5v6l5 3-.75 1.23L11 13V7h2Z"/></svg>
+              <span>Respuesta <strong>&lt; 10 min</strong></span>
+            </div>
+            <div class="flex items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l8 4v6c0 5-3.5 9.74-8 10-4.5-.26-8-5-8-10V6l8-4Zm0 3.09L6 6.82v5.18c0 3.89 2.73 7.8 6 8 3.27-.2 6-4.11 6-8V6.82l-6-1.73Z"/></svg>
+              <span>Guardias certificados</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor"><path d="M5 4h14v2H5V4Zm0 6h14v2H5v-2Zm0 6h14v2H5v-2Z"/></svg>
+              <span>Protocolos ISO & BSC</span>
+            </div>
+          </div>
+        </div>
+     <div class="relative">
+  <!-- Imagen -->
+ <img src="Logo navideño 2026.png" alt="Centro de monitoreo CCTV" class="w-full h-full object-cover max-h-[bg-red-600]" />
+  
+  <!-- Texto debajo de la imagen -->
+  <div class="mt-4 bg-slate-800/80 ring-1 ring-white/10 rounded-2xl p-4 backdrop-blur-md text-center">
+    <p class="text-xs text-slate-300">Disponibilidad nacional</p>
+    <p class="text-lg font-bold">Cobertura 24/7</p>
+  </div>
+</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section id="servicios" class="py-20 bg-slate-950">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto">
+        <h2 class="text-3xl md:text-4xl font-extrabold">Servicios de Seguridad</h2>
+        <p class="mt-3 text-slate-300/80">Soluciones integrales para proteger personas, activos e información.</p>
+      </div>
+      <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Card -->
+        <article class="rounded-2xl bg-slate-800/60 ring-1 ring-white/10 p-6 hover:ring-brand-400/40 transition">
+          <div class="h-12 w-12 rounded-xl bg-brand-600/20 grid place-content-center ring-1 ring-brand-400/30">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l8 4v6c0 5-3.5 9.74-8 10-4.5-.26-8-5-8-10V6l8-4Z"/></svg>
+          </div>
+          <h3 class="mt-5 text-xl font-bold">Guardias Intramuros</h3>
+          <p class="mt-2 text-sm text-slate-300/90">Vigilancia, control de accesos, bitácoras digitales, rondines y gestión de incidentes.</p>
+        </article>
+        <!-- Card -->
+        <article class="rounded-2xl bg-slate-800/60 ring-1 ring-white/10 p-6 hover:ring-brand-400/40 transition">
+          <div class="h-12 w-12 rounded-xl bg-brand-600/20 grid place-content-center ring-1 ring-brand-400/30">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor"><path d="M3 6h18v2H3V6Zm0 5h18v2H3v-2Zm0 5h18v2H3v-2Z"/></svg>
+          </div>
+          <h3 class="mt-5 text-xl font-bold">CCTV y Monitoreo</h3>
+          <p class="mt-2 text-sm text-slate-300/90">Implementación de CCTV, analítica de video, monitoreo 24/7 y respuesta a eventos.</p>
+        </article>
+        <!-- Card -->
+        <article class="rounded-2xl bg-slate-800/60 ring-1 ring-white/10 p-6 hover:ring-brand-400/40 transition">
+          <div class="h-12 w-12 rounded-xl bg-brand-600/20 grid place-content-center ring-1 ring-brand-400/30">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor"><path d="M4 4h7v7H4V4Zm9 0h7v7h-7V4ZM4 13h7v7H4v-7Zm9 0h7v7h-7v-7Z"/></svg>
+          </div>
+          <h3 class="mt-5 text-xl font-bold">Control de Accesos</h3>
+          <p class="mt-2 text-sm text-slate-300/90">Torniquetes, credenciales, biometría, visitas y reportes en tiempo real.</p>
+        </article>
+        <!-- Card -->
+        <article class="rounded-2xl bg-slate-800/60 ring-1 ring-white/10 p-6 hover:ring-brand-400/40 transition">
+          <div class="h-12 w-12 rounded-xl bg-brand-600/20 grid place-content-center ring-1 ring-brand-400/30">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a7 7 0 017 7v2a7 7 0 01-14 0V9a7 7 0 017-7Zm0 13a5 5 0 005-5V9a5 5 0 10-10 0v1a5 5 0 005 5Z"/></svg>
+          </div>
+          <h3 class="mt-5 text-xl font-bold">Escoltas & Traslado</h3>
+          <p class="mt-2 text-sm text-slate-300/90">Protección ejecutiva, logística de rutas, evaluación de riesgos y discreción.</p>
+        </article>
+        <!-- Card -->
+        <article class="rounded-2xl bg-slate-800/60 ring-1 ring-white/10 p-6 hover:ring-brand-400/40 transition">
+          <div class="h-12 w-12 rounded-xl bg-brand-600/20 grid place-content-center ring-1 ring-brand-400/30">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3l9 4-9 4-9-4 9-4Zm-9 7l9 4 9-4v7l-9 4-9-4v-7Z"/></svg>
+          </div>
+          <h3 class="mt-5 text-xl font-bold">Centros de Monitoreo</h3>
+          <p class="mt-2 text-sm text-slate-300/90">SOC/NOC, ciberseguridad básica, integraciones y tableros.</p>
+        </article>
+        <!-- Card -->
+        <article class="rounded-2xl bg-slate-800/60 ring-1 ring-white/10 p-6 hover:ring-brand-400/40 transition">
+          <div class="h-12 w-12 rounded-xl bg-brand-600/20 grid place-content-center ring-1 ring-brand-400/30">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l4 7H8l4-7Zm0 20a6 6 0 100-12 6 6 0 000 12Z"/></svg>
+          </div>
+          <h3 class="mt-5 text-xl font-bold">Rondines Inteligentes</h3>
+          <p class="mt-2 text-sm text-slate-300/90">QR/NFC, geocercas, evidencias fotográficas y métricas de cumplimiento.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- VENTAJAS / PROCESOS -->
+  <section id="ventajas" class="py-20">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-12 items-start">
+        <div>
+          <h2 class="text-3xl md:text-4xl font-extrabold">Nuestra metodología</h2>
+          <p class="mt-3 text-slate-300/80">Operamos con procedimientos claros y medibles para asegurar resultados consistentes.</p>
+          <ol class="mt-8 space-y-4 text-sm">
+            <li class="flex gap-4">
+              <div class="h-8 w-8 rounded-full bg-brand-600/30 grid place-content-center">1</div>
+              <div>
+                <p class="font-semibold">Diagnóstico de Riesgos</p>
+                <p class="text-slate-300/80">Visita técnica, análisis de perímetros, flujos de personas y activos críticos.</p>
+              </div>
+            </li>
+            <li class="flex gap-4">
+              <div class="h-8 w-8 rounded-full bg-brand-600/30 grid place-content-center">2</div>
+              <div>
+                <p class="font-semibold">Plan de Seguridad</p>
+                <p class="text-slate-300/80">Definición de puestos, roles, rondines, SLA y tableros de control.</p>
+              </div>
+            </li>
+            <li class="flex gap-4">
+              <div class="h-8 w-8 rounded-full bg-brand-600/30 grid place-content-center">3</div>
+              <div>
+                <p class="font-semibold">Implementación y Capacitación</p>
+                <p class="text-slate-300/80">Inducción operativa, protocolos de emergencia y uso de sistemas.</p>
+              </div>
+            </li>
+            <li class="flex gap-4">
+              <div class="h-8 w-8 rounded-full bg-brand-600/30 grid place-content-center">4</div>
+              <div>
+                <p class="font-semibold">Monitoreo y Mejora Continua</p>
+                <p class="text-slate-300/80">Auditorías, KPIs, retroalimentación y planes de acción.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+        <div class="rounded-3xl bg-slate-800/60 ring-1 ring-white/10 p-8">
+          <h3 class="text-xl font-bold">Garantías y Cumplimiento</h3>
+          <ul class="mt-6 grid sm:grid-cols-2 gap-4 text-sm">
+            <li class="flex gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 flex-none" viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4 1.5 1.5L11 16l-3.5-3.5L9 12z"/></svg>
+              Registro ante DGSP/SSPC
+            </li>
+            <li class="flex gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 flex-none" viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4 1.5 1.5L11 16l-3.5-3.5L9 12z"/></svg>
+              Pólizas de RC y RC Patronal
+            </li>
+            <li class="flex gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 flex-none" viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4 1.5 1.5L11 16l-3.5-3.5L9 12z"/></svg>
+              Controles de confianza y antidoping
+            </li>
+            <li class="flex gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 flex-none" viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4 1.5 1.5L11 16l-3.5-3.5L9 12z"/></svg>
+              Capacitación NOM-035 y PC
+            </li>
+            <li class="flex gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 flex-none" viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4 1.5 1.5L11 16l-3.5-3.5L9 12z"/></svg>
+              Bitácoras y reportes digitales
+            </li>
+            <li class="flex gap-3">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 flex-none" viewBox="0 0 24 24" fill="currentColor"><path d="M9 12l2 2 4-4 1.5 1.5L11 16l-3.5-3.5L9 12z"/></svg>
+              SLA y penalizaciones por contrato
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+ <section id="sectores" class="py-20 bg-black">
+  <div class="max-w-7xl mx-auto px-6 lg:px-8">
+    <h2 class="text-3xl md:text-4xl font-extrabold text-center text-white mb-10">
+      Sectores que protegemos
+    </h2>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <!-- Corporativos -->
+      <div class="rounded-2xl overflow-hidden border border-yellow-600/40 bg-gray-900/80 hover:border-yellow-400 transition group">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwvtRv3dKh_yqGvoCVZq3DHWrsepg-MfWUgA&s" 
+             alt="Corporativos y oficinas" 
+             class="w-full h-40 object-cover group-hover:scale-105 transition-transform duration-300">
+        <div class="p-6">
+          <p class="text-sm text-yellow-300 font-semibold">Corporativos y oficinas</p>
+          <p class="mt-1 text-xs text-gray-300">Accesos, visitantes, paquetería, CCTV.</p>
+        </div>
+      </div>
+
+      <!-- Parques industriales -->
+      <div class="rounded-2xl overflow-hidden border border-yellow-600/40 bg-gray-900/80 hover:border-yellow-400 transition group">
+        <img src="https://grupotorices.com/wp-content/uploads/2024/08/plano-general-de-un-parque-industrial.jpg" 
+             alt="Parques industriales" 
+             class="w-full h-40 object-cover group-hover:scale-105 transition-transform duration-300">
+        <div class="p-6">
+          <p class="text-sm text-yellow-300 font-semibold">Parques industriales</p>
+          <p class="mt-1 text-xs text-gray-300">Rondines, perímetros, andenes.</p>
+        </div>
+      </div>
+
+      <!-- Retail y plazas -->
+      <div class="rounded-2xl overflow-hidden border border-yellow-600/40 bg-gray-900/80 hover:border-yellow-400 transition group">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb6wecGSln35vdbB0ceH0KCFGRopXcteVydg&s" 
+             alt="Retail y plazas" 
+             class="w-full h-40 object-cover group-hover:scale-105 transition-transform duration-300">
+        <div class="p-6">
+          <p class="text-sm text-yellow-300 font-semibold">Retail y plazas</p>
+          <p class="mt-1 text-xs text-gray-300">Tiendas ancla, aforos, prevención.</p>
+        </div>
+      </div>
+
+      <!-- Residencial -->
+      <div class="rounded-2xl overflow-hidden border border-yellow-600/40 bg-gray-900/80 hover:border-yellow-400 transition group">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ41j1vmee87bZQp3AH26dTnaJMGCdYutfIVA&s" 
+             alt="Residencial" 
+             class="w-full h-40 object-cover group-hover:scale-105 transition-transform duration-300">
+        <div class="p-6">
+          <p class="text-sm text-yellow-300 font-semibold">Residencial</p>
+          <p class="mt-1 text-xs text-gray-300">Casetas, visitantes, rondines.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- CLIENTES -->
+  <section id="clientes" class="py-20">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <h2 class="text-3xl md:text-4xl font-extrabold">Clientes y casos</h2>
+          <p class="mt-3 text-slate-300/80">Más de 120 sitios protegidos con indicadores de cumplimiento &gt; 98%.</p>
+          <ul class="mt-6 space-y-3 text-sm">
+            <li class="flex items-start gap-3"><span class="mt-1 h-2.5 w-2.5 bg-brand-500 rounded-full"></span> Implementación de CCTV y control de accesos en parque industrial de 80,000 m².</li>
+            <li class="flex items-start gap-3"><span class="mt-1 h-2.5 w-2.5 bg-brand-500 rounded-full"></span> Reducción del 35% en incidentes al migrar rondines a sistema digital.</li>
+            <li class="flex items-start gap-3"><span class="mt-1 h-2.5 w-2.5 bg-brand-500 rounded-full"></span> Protocolos de reacción y escoltas para directivos en eventos masivos.</li>
+          </ul>
+        </div>
+        <div class="grid sm:grid-cols-2 gap-4">
+          <div class="rounded-2xl ring-1 ring-white/10 bg-slate-800/60 p-6 text-center">
+            <p class="text-4xl font-extrabold">100%</p>
+            <p class="text-xs text-slate-300/80">SLA cumplido</p>
+          </div>
+          <div class="rounded-2xl ring-1 ring-white/10 bg-slate-800/60 p-6 text-center">
+            <p class="text-4xl font-extrabold">24/7</p>
+            <p class="text-xs text-slate-300/80">Monitoreo</p>
+          </div>
+          <div class="rounded-2xl ring-1 ring-white/10 bg-slate-800/60 p-6 text-center">
+            <p class="text-4xl font-extrabold">120+</p>
+            <p class="text-xs text-slate-300/80">Sitios activos</p>
+          </div>
+          <div class="rounded-2xl ring-1 ring-white/10 bg-slate-800/60 p-6 text-center">
+            <p class="text-4xl font-extrabold">10 min</p>
+            <p class="text-xs text-slate-300/80">Tiempo de reacción</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="clientes" class="py-16 bg-gray-900 text-white">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <!-- Título -->
+    <h2 class="text-3xl font-bold mb-4">Lugares donde hemos servido</h2>
+    <p class="text-gray-400 max-w-2xl mx-auto mb-10">
+      Nuestra experiencia se respalda en la confianza de diferentes sectores y organizaciones que han requerido nuestros servicios de seguridad.
+    </p>
+
+    <!-- Grid de clientes/lugares -->
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+      <!-- Cliente 1 -->
+      <div class="p-4 bg-gray-800 rounded-xl shadow hover:shadow-lg transition">
+        <img src="data:image/png;base64,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" alt="Hospital" class="mx-auto h-16 mb-3">
+        <p class="font-semibold">Textiles San Jose</p>
+      </div>
+
+      <!-- Cliente 2 -->
+      <div class="p-4 bg-gray-800 rounded-xl shadow hover:shadow-lg transition">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd6299LcTG9ElB0ObOQzh83yNeqtY_yz1DKg&s" alt="Plaza Comercial" class="mx-auto h-16 mb-3">
+        <p class="font-semibold">Plaza Comercial Las Flores</p>
+      </div>
+
+      <!-- Cliente 3 -->
+      <div class="p-4 bg-gray-800 rounded-xl shadow hover:shadow-lg transition">
+        <img src="https://www.mgroupcorp.com/wp-content/uploads/MGROUP.png" alt="Empresa" class="mx-auto h-16 mb-3">
+        <p class="font-semibold">Corporativo Empresa MWGROUP</p>
+      </div>
+
+    
+
+      <!-- Cliente 4 -->
+      <div class="p-4 bg-gray-800 rounded-xl shadow hover:shadow-lg transition">
+        <img src="https://directoriooic.chihuahua.gob.mx/static/images/logotipo_horizontal.png" alt="Escuela" class="mx-auto h-16 mb-3">
+        <p class="font-semibold">Gobierno de chihuahua</p>
+      </div>
+
+
+      <!-- Condominios residenciales -->
+      <div class="p-4 bg-gray-800 rounded-xl shadow hover:shadow-lg transition">
+        <img src="https://img10.naventcdn.com/avisos/resize/18/01/47/92/40/81/720x532/1566906353.jpg?isFirstImage=true" alt="Empresa" class="mx-auto h-76 mb-3">
+        <p class="font-semibold">Acanto N.o 15</p>
+      </div>
+
+      <div class="p-4 bg-gray-800 rounded-xl shadow hover:shadow-lg transition">
+        <img src="https://vivepolanco.mx/wp-content/uploads/2023/12/GALILEO218_4.jpg" alt="Empresa" class="mx-auto h-76 mb-3">
+        <p class="font-semibold">Vistas polanco N.o 218</p>
+      </div>
+
+       <div class="p-4 bg-gray-800 rounded-xl shadow hover:shadow-lg transition">
+        <img src="https://img.resemmedia.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzL2NhNGEwNjNmLWRiM2UtNDQ4Zi05YjA3LTk0MmQ0YzA0NDZiNi8xZjhjMjYyMC04NGNhLTRhYTktOGE0Yi1lZmE5NDJmMmE2YTYucG5nIiwiYnJhbmQiOiJyZXNlbSIsImVkaXRzIjp7InJvdGF0ZSI6bnVsbCwicmVzaXplIjp7IndpZHRoIjo4NDAsImhlaWdodCI6NjMwLCJmaXQiOiJjb3ZlciJ9fX0=" alt="Empresa" class="mx-auto h-76 mb-3">
+        <p class="font-semibold">Galaxia N.o 321</p>
+      </div>
+
+      
+       <div class="p-4 bg-gray-800 rounded-xl shadow hover:shadow-lg transition">
+        <img src="https://img.resemmedia.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzL2ZlNTMwY2JhLWRiN2ItNGJlYi1iZWM1LWY1YTNjZmFkMmU2Ni9hODc0NjNkYy1lZTYwLTQ1ZGEtYjBjOS05MTlmNTJlYjZhNTUucG5nIiwiYnJhbmQiOiJyZXNlbSIsImVkaXRzIjp7InJvdGF0ZSI6bnVsbCwicmVzaXplIjp7IndpZHRoIjo4NDAsImhlaWdodCI6NjMwLCJmaXQiOiJjb3ZlciJ9fX0=" alt="Empresa" class="mx-auto h-76 mb-3">
+        <p class="font-semibold">Galaxia N.o 321</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- CTA -->
+  <section class="py-16 bg-gradient-to-br from-brand-800 to-brand-600">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <div class="grid md:grid-cols-2 items-center gap-8">
+        <div>
+          <h3 class="text-2xl font-extrabold">¿Listo para elevar la seguridad de tu sitio?</h3>
+          <p class="mt-2 text-brand-100/90">Agendemos una visita técnica sin costo para diseñar tu plan ideal.</p>
+        </div>
+        <div class="flex md:justify-end">
+          <a href="#contacto" class="rounded-xl bg-slate-900 px-5 py-3 text-sm font-semibold hover:bg-slate-800 ring-1 ring-white/10">Agendar ahora</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- CONTACTO -->
+<section id="contacto" class="py-20 bg-slate-950">
+  <div class="max-w-7xl mx-auto px-6 lg:px-8">
+    <div class="grid lg:grid-cols-2 gap-12">
+        
+      <!-- Información de contacto -->
+      <div>
+        <h2 class="text-3xl md:text-4xl font-extrabold">Contacto</h2>
+        <p class="mt-3 text-slate-300/80">Compártenos tus datos y un asesor se pondrá en contacto.</p>
+        <ul class="mt-6 space-y-3 text-sm">
+          <li class="flex items-center gap-3">📞 (55) 4529 4879</li>
+          <li class="flex items-center gap-3">📞 (55) 3231 5509</li>
+          <li class="flex items-center gap-3">📧 Empresadeseguridadprivadambi@gmail.com</li>
+          <li class="flex items-center gap-3">📍 CDMX y área metropolitana</li>
+        </ul>
+      </div>
+
+      <!-- Formulario funcional -->
+  <form
+  action="https://formspree.io/f/xvgbyzqn"
+  method="POST"
+>
+
+        <div>
+          <label class="text-sm text-slate-300" for="nombre">Nombre</label>
+          <input id="nombre" name="nombre" type="text" required
+            class="mt-1 w-full rounded-xl bg-slate-900/60 px-4 py-3 ring-1 ring-white/10 focus:ring-brand-500 outline-none"
+            placeholder="Tu nombre" />
+        </div>
+
+        <div class="grid sm:grid-cols-2 gap-4">
+          <div>
+            <label class="text-sm text-slate-300" for="empresa">Empresa</label>
+            <input id="empresa" name="empresa" type="text"
+              class="mt-1 w-full rounded-xl bg-slate-900/60 px-4 py-3 ring-1 ring-white/10 focus:ring-brand-500 outline-none"
+              placeholder="Razón social" />
+          </div>
+          <div>
+            <label class="text-sm text-slate-300" for="telefono">Teléfono</label>
+            <input id="telefono" name="telefono" type="tel" required
+              class="mt-1 w-full rounded-xl bg-slate-900/60 px-4 py-3 ring-1 ring-white/10 focus:ring-brand-500 outline-none"
+              placeholder="55 0000 0000" />
+          </div>
+        </div>
+
+        <div>
+          <label class="text-sm text-slate-300" for="correo">Correo</label>
+          <input id="correo" name="correo" type="email" required
+            class="mt-1 w-full rounded-xl bg-slate-900/60 px-4 py-3 ring-1 ring-white/10 focus:ring-brand-500 outline-none"
+            placeholder="tucorreo@empresa.com" />
+        </div>
+
+        <div>
+          <label class="text-sm text-slate-300" for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required
+            class="mt-1 w-full rounded-xl bg-slate-900/60 px-4 py-3 ring-1 ring-white/10 focus:ring-brand-500 outline-none"
+            placeholder="Cuéntanos tus necesidades de seguridad"></textarea>
+        </div>
+
+        <button type="submit"
+          class="w-full rounded-xl bg-brand-600 px-5 py-3 text-sm font-semibold hover:bg-brand-700 shadow-soft">
+          Enviar solicitud
+        </button>
+
+        <p class="text-xs text-slate-400">
+          Al enviar aceptas nuestro 
+          <a href="#" class="underline decoration-dotted">Aviso de Privacidad</a>.
+        </p>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+  <!-- FOOTER -->
+  <footer class="py-10">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+        <p class="text-xs text-slate-400">© <span id="year"></span> MBI Seguridad Privada S.A. de C.V. Todos los derechos reservados.</p>
+        <div class="flex items-center gap-4 text-xs text-slate-300/80">
+          <a href="#" class="hover:text-brand-300">Términos</a>
+          <a href="#" class="hover:text-brand-300">Privacidad</a>
+          <a href="#contacto" class="hover:text-brand-300">Contacto</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
+
+
+
